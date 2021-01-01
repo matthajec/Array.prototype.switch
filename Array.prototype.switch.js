@@ -1,5 +1,6 @@
-console.log(`\ 
+console.log(` 
 To use Array.prototype.switch simply call it just how you would call any other array prototype function.
+
 Example: 
   exampleArr = ['first','second']
   exampleArr.switch(0, 1)
@@ -9,7 +10,7 @@ The array 'arr' is provided with each element being the value of its index.
 `)
 
 const arr = []
-for(let i = 0; i<25; i++) { // creates an array
+for (let i = 0; i < 25; i++) { // creates an array
   arr.push(i)
 }
 
